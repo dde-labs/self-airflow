@@ -1,0 +1,34 @@
+# Development
+pre-commit==3.7.0
+
+# Main
+apache-airflow==2.9.0
+# For celery:
+# apache-airflow-providers-celery>=3.3.0
+# apache-airflow-providers-mongo==2.3.0
+
+# airflow-provider-great-expectations==0.1.3
+
+# # Airflow-Providors
+# ===========
+apache-airflow-providers-http==4.10.0
+apache-airflow-providers-smtp==1.6.1
+
+# docs: https://airflow.apache.org/docs/apache-airflow-providers-amazon/stable/index.html
+apache-airflow-providers-amazon==8.20.0
+
+# docs: https://airflow.apache.org/docs/apache-airflow-providers-microsoft-azure/stable/index.html
+apache-airflow-providers-microsoft-azure==10.0.0
+
+# docs: https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/index.html
+apache-airflow-providers-postgres==5.10.2
+
+# docs: https://airflow.apache.org/docs/apache-airflow-providers-atlassian-jira/stable/index.html
+apache-airflow-providers-atlassian-jira==2.5.1
+
+# docs: https://airflow.apache.org/docs/apache-airflow-providers-airbyte/stable/index.html
+apache-airflow-providers-airbyte==3.7.0
+
+# # # Other Providors
+# # docs: https://docs.astronomer.io/learn/airflow-great-expectations
+# airflow-provider-great-expectations==0.2.7

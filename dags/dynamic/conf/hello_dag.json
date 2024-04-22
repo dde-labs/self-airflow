@@ -1,0 +1,10 @@
+[
+  {
+    "name": "config1",
+    "message": "first DAG will receive this message"
+  },
+  {
+    "name": "config2",
+    "message": "second DAG will receive this message"
+  }
+]

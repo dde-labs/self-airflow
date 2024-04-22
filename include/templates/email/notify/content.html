@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div style=" position: relative;  min-height: 100vh;">
+        <div style="padding-bottom: 2.5rem;">
+            Try {{try_number}} out of {{max_tries + 1}}<br>
+            Exception:<br>{{exception_html}}<br>
+            Host: {{ti.hostname}}<br>
+            Log: <a href="{{ti.log_url}}">Link</a><br>
+            Host: {{ti.hostname}}<br>
+            Mark success: <a href="{{ti.mark_success_url}}">Link</a>
+            <br>
+            <b>Task ID:</b> {{ ti.task_id }} <br>
+            <b>Task execution date:</b> {{ ti.execution_date }} <br>
+            <b>Log:</b> <a href="{{ti.log_url}}">Link</a><br>
+            <b>Try:</b> {{try_number}} out of {{max_tries + 1}}<br>
+            <b>Exception:</b><p style="background-color: #eee; border: 1px solid #999;display: block;padding: 20px;">{{exception_html}}</p>
+            <b>Host:</b> {{ti.hostname}}<br>
+            <b>Mark success:</b> <a href="{{ti.mark_success_url}}">Link</a><br>
+        </div>
+    </div>
+</body>
+</html>
