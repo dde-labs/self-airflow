@@ -1,6 +1,13 @@
 ---
 services:
   minio:
+#    image: quay.io/minio/minio:RELEASE.2024-04-18T19-09-19Z
+#    command: server /data --console-address ":9001"
+#    healthcheck:
+#      test: [ "CMD", "mc", "ready", "local" ]
+#      interval: 5s
+#      timeout: 5s
+#      retries: 5
     image: bitnami/minio:2024
     ports:
       - '9000:9000'

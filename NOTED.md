@@ -53,10 +53,6 @@ $ docker compose up -d
 $ docker compose -f docker-compose.minio.yml up -d
 ```
 
-## Best Practice
-
-[ETL Best Practice with Airflow](https://gtoonstra.github.io/etl-with-airflow/principles.html)
-
 ## Production
 
 We set the fernet and secret keys from the `cryptography` package.
