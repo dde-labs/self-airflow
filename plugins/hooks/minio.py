@@ -80,7 +80,10 @@ class MinIOHook(BaseHook):
         """
 
         client = self.get_conn()
-        list_of_objects = client.list_objects(bucket_name=bucket_name, prefix=prefix)
+        list_of_objects = client.list_objects(
+            bucket_name=bucket_name,
+            prefix=prefix,
+        )
         return list_of_objects
 
     def copy_object(

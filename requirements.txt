@@ -7,6 +7,10 @@ apache-airflow==2.9.0
 # Custom Plugins
 minio==7.2.5
 
+# Note: Soda-Core with Pandas and Dask does not support the wheel building on
+#   Python version 3.11.
+soda-core-pandas-dask==3.3.2
+
 # # Airflow-Providors
 # ===========
 apache-airflow-providers-http==4.10.0
