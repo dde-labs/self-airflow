@@ -2,7 +2,7 @@
 pre-commit==3.7.0
 
 # Main
-apache-airflow==2.9.0
+apache-airflow==2.9.2
 
 # Custom Plugins
 minio==7.2.5
