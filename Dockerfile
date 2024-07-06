@@ -8,7 +8,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         vim \
         wget \
-    && xargs apt-get -y install $(grep -vE "^\s*#" /packages.txt | tr "\n" "\t") \
+    && grep -vE '^\s*#' /packages.txt | sed -e 's/\r//g' | tr "\n" " " | xargs sudo apt-get install -y \
     && apt-get autoremove -yqq --purge \
     && apt-get clean
 
